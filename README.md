@@ -138,11 +138,11 @@ model.fit(training_set, validation_data=validation_set, epochs=50)
 ## 🚀 **Cara Menjalankan Kode**
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/Implementasi-CNN.git
+   git clone https://github.com/prytarosela/CNN-REVIEW.git
    ```
 2. Masuk ke folder repository:
    ```bash
-   cd Implementasi-CNN
+   cd CNN-REVIEW
    ```
 3. Jalankan file `.ipynb` di Jupyter Notebook atau Google Colab.
 4. Pastikan semua dependensi telah terinstall, seperti TensorFlow dan Keras:
