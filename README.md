@@ -116,9 +116,9 @@ model.fit(training_set, validation_data=validation_set, epochs=50)
   ```
 
 ### **Hasil Training**
-- Akurasi Pelatihan: XX%.
-- Akurasi Validasi: XX%.
-- Akurasi Data Uji: XX%.
+- Akurasi Pelatihan: 75.29%.
+- Akurasi Validasi: 70.45%.
+- Akurasi Data Uji: 70.46%.
 
 ---
 
@@ -129,8 +129,8 @@ model.fit(training_set, validation_data=validation_set, epochs=50)
    - Model dapat ditingkatkan dengan dataset lebih besar.
 
 2. **Point 3 (Klasifikasi Multi-Kelas):**
-   - Akurasi uji sebesar XX% pada dataset CIFAR-10.
-   - Dropout layer efektif dalam mencegah overfitting.
+   - Akurasi uji sebesar 70.46% pada dataset CIFAR-10.
+   - Dropout layer mungkin efektif dalam mencegah overfitting, meskipun hasilnya menunjukkan sedikit gap antara akurasi pelatihan dan uji.
    - Model cukup baik untuk mengenali kategori berbeda pada CIFAR-10.
 
 ---
