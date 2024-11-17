@@ -27,7 +27,7 @@ Convolutional Neural Networks (CNN) adalah jenis jaringan saraf tiruan yang dira
 
 ---
 
-## 🔎 **Point 2: Implementasi Klasifikasi Biner Gambar**
+## 🔎 **Code 2: Implementasi Klasifikasi Biner Gambar**
 
 ### **Deskripsi**
 Implementasi CNN untuk klasifikasi biner gambar menggunakan dataset custom. Model bertujuan untuk memprediksi apakah sebuah gambar termasuk dalam salah satu dari dua kelas tertentu.
@@ -60,11 +60,11 @@ Augmentasi data digunakan untuk memperbesar variasi dataset pelatihan:
 ### **Training Model**
 ```python
 model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-model.fit(training_set, validation_data=validation_set, epochs=25)
+model.fit(training_set, validation_data=validation_set, epochs=50)
 ```
 - Optimizer: Adam.
 - Loss function: Binary Crossentropy.
-- Jumlah epoch: 25.
+- Jumlah epoch: 50.
 
 ### **Hasil Training**
 - Akurasi Pelatihan: XX%.
@@ -99,11 +99,11 @@ model.add(Dense(units=10, activation='softmax'))
 ### **Training Model**
 ```python
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-model.fit(training_set, validation_data=validation_set, epochs=50)
+model.fit(training_set, validation_data=validation_set, epochs=10)
 ```
 - Optimizer: Adam.
 - Loss function: Categorical Crossentropy.
-- Jumlah epoch: 50.
+- Jumlah epoch: 10.
 
 ### **Evaluasi**
 - Evaluasi model pada data uji:
