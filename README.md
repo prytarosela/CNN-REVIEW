@@ -27,7 +27,7 @@ Convolutional Neural Networks (CNN) adalah jenis jaringan saraf tiruan yang dira
 
 ---
 
-## 🔎 **Code 3: Implementasi Klasifikasi Biner Gambar**
+## 🔎 **Code 2: Implementasi Klasifikasi Biner Gambar**
 
 ### **Deskripsi**
 Implementasi CNN untuk klasifikasi biner gambar menggunakan dataset custom. Model bertujuan untuk memprediksi apakah sebuah gambar termasuk dalam salah satu dari dua kelas tertentu.
@@ -72,7 +72,7 @@ model.fit(training_set, validation_data=validation_set, epochs=50)
 
 ---
 
-## 🔎 **Point 3: Implementasi Klasifikasi Multi-Kelas (CIFAR-10)**
+## 🔎 **Code 3: Implementasi Klasifikasi Multi-Kelas (CIFAR-10)**
 
 ### **Deskripsi**
 Implementasi CNN untuk klasifikasi multi-kelas menggunakan dataset CIFAR-10. Dataset ini berisi gambar berwarna 32x32 dengan 10 kategori, seperti pesawat, mobil, burung, kucing, dll.
