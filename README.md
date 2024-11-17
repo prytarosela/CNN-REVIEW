@@ -6,8 +6,8 @@ Convolutional Neural Networks (CNN) adalah arsitektur deep learning yang sangat 
 
 Repository ini berisi:
 1. **Review CNN**: Penjelasan teori CNN secara umum.
-2. **Point 2**: Kode implementasi klasifikasi biner gambar menggunakan dataset custom.
-3. **Point 3**: Kode implementasi klasifikasi multi-kelas menggunakan dataset CIFAR-10.
+2. **Code 2**: Kode implementasi klasifikasi biner gambar menggunakan dataset custom.
+3. **Code 3**: Kode implementasi klasifikasi multi-kelas menggunakan dataset CIFAR-10.
 
 ---
 
@@ -27,7 +27,7 @@ Convolutional Neural Networks (CNN) adalah jenis jaringan saraf tiruan yang dira
 
 ---
 
-## 🔎 **Code 2: Implementasi Klasifikasi Biner Gambar**
+## 🔎 **Code 3: Implementasi Klasifikasi Biner Gambar**
 
 ### **Deskripsi**
 Implementasi CNN untuk klasifikasi biner gambar menggunakan dataset custom. Model bertujuan untuk memprediksi apakah sebuah gambar termasuk dalam salah satu dari dua kelas tertentu.
