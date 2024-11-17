@@ -67,8 +67,8 @@ model.fit(training_set, validation_data=validation_set, epochs=50)
 - Jumlah epoch: 50.
 
 ### **Hasil Training**
-- Akurasi Pelatihan: XX%.
-- Akurasi Validasi: XX%.
+- Akurasi Pelatihan: 91%.
+- Akurasi Validasi: 81,35%.
 
 ---
 
@@ -124,7 +124,7 @@ model.fit(training_set, validation_data=validation_set, epochs=10)
 
 ## 🧪 **Hasil dan Observasi**
 1. **Point 2 (Klasifikasi Biner):**
-   - Akurasi validasi mencapai XX%.
+   - Akurasi validasi mencapai 81,35%.
    - Augmentasi data membantu mengurangi overfitting.
    - Model dapat ditingkatkan dengan dataset lebih besar.
 
